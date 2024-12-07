@@ -93,28 +93,28 @@ const MySkillsPage = () => {
 <ParticleComponent theme='light' />
             <Main>
 <Title>
-    <Design width={40} height={40} /> Designer
+    <Design width={40} height={40} /> Cyber Security
 </Title>
 <Description>
-I love to create design which speaks, Keep it clean, minimal and simple.
-</Description>
-<Description>
-<strong>I like to Design</strong>
-<ul>
-    <li>
-        Web Design
-    </li>
-    <li>
-        Mobile Apps
-    </li>
-</ul>
+I love to dig Networks and web servers
 </Description>
 <Description>
 <strong>Tools</strong>
 <ul>
     <li>
-       Figma
+        Burpsuit 
     </li>
+    <li>
+        NMAP
+    </li>
+    <li>
+        Metasploit
+    </li>
+</ul>
+</Description>
+<Description>
+<strong></strong>
+<ul>
     
 </ul>
 </Description>
@@ -130,13 +130,13 @@ I value business or brand for which i'm creating, thus i enjoy bringing new idea
 <Description>
 <strong>Skills</strong>
 <p>
-Html, Css, Js, React, Redux, Sass, Bootstrap, Tailwind, Firebase etc.
+HTML, CSS, JS, React, Acertinity UI , Shadcn UI, Bootstrap, Tailwind, Mongo DB, My SQL etc.
 </p>
 </Description>
 <Description>
 <strong>Tools</strong>
 <p>
-VScode, Github, Codepen etc.
+VScode, Github, Git, Azure, AWS etc.
 </p>
 </Description>
 

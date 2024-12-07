@@ -55,23 +55,6 @@ const container = {
 
 const WorkPage = () => {
   const ref = useRef(null);
-  const yinyang = useRef(null);
-
-  useEffect(() => {
-    let element = ref.current;
-
-    const rotate = () => {
-      element.style.transform = `translateX(${-window.pageYOffset}px)`;
-
-      return (yinyang.current.style.transform =
-        "rotate(" + -window.pageYOffset + "deg)");
-    };
-
-    window.addEventListener("scroll", rotate);
-    return () => {
-      window.removeEventListener("scroll", rotate);
-    };
-  }, []);
 
   return (
     <ThemeProvider theme={DarkTheme}>
@@ -85,9 +68,6 @@ const WorkPage = () => {
             <Card key={d.id} data={d} />
           ))}
         </Main>
-        <Rotate ref={yinyang}>
-          <YinYang width={80} height={80} fill={DarkTheme.text} />
-        </Rotate>
 
         <BigTitlte text="WORK" top="10%" right="20%" />
       </Box>
