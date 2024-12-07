@@ -3,7 +3,7 @@
 export const Work = [
     {
         id:1,
-        name:"E-Sports Club Regestration ",
+        name:"E-Sports Club Registration ",
         description:"It is a registration website for the club which uses REACT for frontend and Express and Mongo DB for the backend processing.",
         tags:["react","gsap","styledComponents"],
         
