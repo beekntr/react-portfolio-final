@@ -4,7 +4,7 @@ export const Work = [
     {
         id:1,
         name:"E-Sports Club Regestration ",
-        description:"It is build on top of the React JS, with styledComponents and GSAP for smooth scrolling animations.",
+        description:"It is a registration website for the club which uses REACT for frontend and Express and Mongo DB for the backend processing.",
         tags:["react","gsap","styledComponents"],
         
         demo:"https://esportsclub.me/",
@@ -13,7 +13,7 @@ export const Work = [
     {
         id:2,
         name:"Employee Management System",
-        description:"A Job listing website build in ReactJS. With searching and filtering functionalities.",
+        description:"A website where companies can manage their employees, the data is stored in the My SQL Database ",
         tags:["PHP","My SQL"],
         
         demo:"http://nspproject.kshitijsinghbhati.in",

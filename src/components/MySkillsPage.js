@@ -122,7 +122,7 @@ I love to dig Networks and web servers
             </Main>
             <Main>
 <Title>
-    <Develope width={40} height={40} /> Frontend Developer
+    <Develope width={40} height={40} /> Development
 </Title>
 <Description>
 I value business or brand for which i'm creating, thus i enjoy bringing new ideas to life.
